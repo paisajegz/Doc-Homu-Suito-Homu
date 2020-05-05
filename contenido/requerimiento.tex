@@ -1,2 +1,37 @@
 \section{Requerimiento}
-Aqui va el requerimiento
+El sistema completo va ha tener los siguientes software:
+\begin{enumerate}
+\item \textbf{Programa Cliente en pc}
+\begin{itemize}
+\item tener un inicio de sesión para poder validar que los usuarios sean los verdaderos.
+\item mostrar los componentes de la casa de dos formas diferentes (lista, mapa).
+\item manejar los componentes por click, para poder decidir el estado de cada entidad.
+\item manejar los componentes por voz, para poder decidir el estado de cada entidad.
+\item configurar sistema de riego de la casa y si se quiere manejar un sistema de reglas como prohibir el acceso a parte de la casa y que solamente una persona pueda entrar.
+\item el usuario administrador podrá agregar usuarios que puedan intelactual con las entidades de casa.
+\end{itemize}
+\item \textbf{Aplicación Cliente en Dispositivos móviles}
+\begin{itemize}
+\item tener un inicio de sesión para poder validar que los usuarios sean los verdaderos.
+\item mostrar los componentes de la casa de dos formas diferentes (lista, mapa).
+\item manejar los componentes por click, para poder decidir el estado de cada entidad.
+\item manejar los componentes por voz, para poder decidir el estado de cada entidad.
+\item configurar sistema de riego de la casa y si se quiere manejar un sistema de reglas como prohibir el acceso a parte de la casa y que solamente una persona pueda entrar.
+\item el usuario administrador podrá agregar usuarios que puedan intelectual con las entidades de casa.
+\end{itemize}
+\newpage
+\item \textbf{Servicio Web para la manipulacion de datos}
+\begin{itemize}
+\item poder blindar con la información necesaria para que los clientes pueda intelectual.
+\item tener validación de usuarios por autorizaciones para que solamente los clientes pueda usar el software
+\item tener roles de usuarios para saber quien puede entrar a los diferentes servicios, que se podrán consumir
+\item poder manejar los servicios web con los clientes a través de socket para que la información se pueda mover en tiempo real, y poder tener un mejor control de la casa.
+\end{itemize}
+\item \textbf{Sistema iot para conectar maquina con maquina}
+\begin{itemize}
+\item conectar todos los equipos con el servidor
+\item funcionar de la mano con los servicios web
+\item usar mosquito para ayudarnos al manejo de la interación machine to machine
+\item exsiten dos tipos de entidades una que escuchan al clientes solamente y otras que funcionan por si misma y estan constantemente enviando informacion al servidor.
+\end{itemize}
+\end{enumerate}
