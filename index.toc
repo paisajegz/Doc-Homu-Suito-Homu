@@ -1,16 +1,48 @@
 \babel@toc {spanish}{}
-\contentsline {section}{\numberline {1}Resumen}{2}% 
-\contentsline {section}{\numberline {2}Introducci\IeC {\'o}n}{3}% 
-\contentsline {section}{\numberline {3}Objetivos}{4}% 
-\contentsline {subsection}{\numberline {3.1}Generales}{4}% 
-\contentsline {subsection}{\numberline {3.2}Espec\IeC {\'\i }ficos}{4}% 
-\contentsline {section}{\numberline {4}Planteamiento del problema}{5}% 
-\contentsline {section}{\numberline {5}Requerimiento}{6}% 
-\contentsline {section}{\numberline {6}Planteamiento de la soluci\IeC {\'o}n}{8}% 
-\contentsline {subsection}{\numberline {6.1}Interfacez de usuario}{8}% 
-\contentsline {subsection}{\numberline {6.2}Web Services}{8}% 
-\contentsline {subsection}{\numberline {6.3}Capa de seguridad}{8}% 
-\contentsline {section}{\numberline {7}materiales utilizados}{9}% 
-\contentsline {subsection}{\numberline {7.1}Node.js}{9}% 
-\contentsline {subsection}{\numberline {7.2}Mosquitto}{9}% 
-\contentsline {section}{\numberline {8}Resultados}{10}% 
+\contentsline {section}{\numberline {1}Resumen}{3}% 
+\contentsline {section}{\numberline {2}Introducci\IeC {\'o}n}{4}% 
+\contentsline {section}{\numberline {3}Objetivos}{5}% 
+\contentsline {subsection}{\numberline {3.1}Generales}{5}% 
+\contentsline {subsection}{\numberline {3.2}Espec\IeC {\'\i }ficos}{5}% 
+\contentsline {section}{\numberline {4}Planteamiento del problema}{6}% 
+\contentsline {section}{\numberline {5}Requerimiento}{7}% 
+\contentsline {subsection}{\numberline {5.1}Programa Cliente en pc}{7}% 
+\contentsline {subsection}{\numberline {5.2}Aplicaci\IeC {\'o}n Cliente en Dispositivos m\IeC {\'o}viles}{7}% 
+\contentsline {subsection}{\numberline {5.3}Servicio Web para la manipulacion de datos}{8}% 
+\contentsline {subsection}{\numberline {5.4}Sistema iot para conectar maquina con maquina}{8}% 
+\contentsline {section}{\numberline {6}Marco Te\IeC {\'o}rico}{9}% 
+\contentsline {subsection}{\numberline {6.1}Domotica}{9}% 
+\contentsline {subsection}{\numberline {6.2}Base de datos Geogr\IeC {\'a}ficas}{9}% 
+\contentsline {subsection}{\numberline {6.3}Programaci\IeC {\'o}n Orientada a Objetos}{9}% 
+\contentsline {subsection}{\numberline {6.4}Web Services}{9}% 
+\contentsline {subsubsection}{\numberline {6.4.1}Rest-Full}{9}% 
+\contentsline {subsubsection}{\numberline {6.4.2}Soap}{9}% 
+\contentsline {subsection}{\numberline {6.5}Esteganografia}{9}% 
+\contentsline {subsection}{\numberline {6.6}IOT}{10}% 
+\contentsline {subsection}{\numberline {6.7}Infraestructura de servicios IOT}{10}% 
+\contentsline {subsubsection}{\numberline {6.7.1}Message Queue}{10}% 
+\contentsline {subsubsection}{\numberline {6.7.2}Message Service}{10}% 
+\contentsline {subsection}{\numberline {6.8}Protocolos IOT}{10}% 
+\contentsline {subsubsection}{\numberline {6.8.1}MQTT}{10}% 
+\contentsline {subsubsection}{\numberline {6.8.2}BLE}{10}% 
+\contentsline {subsubsection}{\numberline {6.8.3}AMQP}{10}% 
+\contentsline {subsubsection}{\numberline {6.8.4}DDS}{11}% 
+\contentsline {subsubsection}{\numberline {6.8.5}WAMP}{11}% 
+\contentsline {subsubsection}{\numberline {6.8.6}CoAP}{11}% 
+\contentsline {subsubsection}{\numberline {6.8.7}STOMP}{11}% 
+\contentsline {subsubsection}{\numberline {6.8.8}WMQ}{11}% 
+\contentsline {subsubsection}{\numberline {6.8.9}XMPP}{11}% 
+\contentsline {section}{\numberline {7}Planteamiento de la soluci\IeC {\'o}n}{12}% 
+\contentsline {subsection}{\numberline {7.1}Lenguaje para el manejo del mapa}{12}% 
+\contentsline {subsubsection}{\numberline {7.1.1}Definidor de datos}{12}% 
+\contentsline {subsubsection}{\numberline {7.1.2}Manipulador de datos}{12}% 
+\contentsline {subsubsection}{\numberline {7.1.3}Consultor de datos}{12}% 
+\contentsline {subsection}{\numberline {7.2}Interfacez de usuario}{12}% 
+\contentsline {subsection}{\numberline {7.3}Web Services}{12}% 
+\contentsline {subsection}{\numberline {7.4}Capa de seguridad}{13}% 
+\contentsline {subsection}{\numberline {7.5}Manejador IOT}{13}% 
+\contentsline {subsection}{\numberline {7.6}Casos De Uso}{13}% 
+\contentsline {section}{\numberline {8}materiales utilizados}{14}% 
+\contentsline {subsection}{\numberline {8.1}Node.js}{14}% 
+\contentsline {subsection}{\numberline {8.2}Mosquitto}{14}% 
+\contentsline {section}{\numberline {9}Resultados}{15}% 
