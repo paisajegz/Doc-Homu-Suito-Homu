@@ -44,5 +44,12 @@
 \contentsline {subsection}{\numberline {7.6}Casos De Uso}{13}% 
 \contentsline {section}{\numberline {8}materiales utilizados}{14}% 
 \contentsline {subsection}{\numberline {8.1}Node.js}{14}% 
-\contentsline {subsection}{\numberline {8.2}Mosquitto}{14}% 
-\contentsline {section}{\numberline {9}Resultados}{15}% 
+\contentsline {subsubsection}{\numberline {8.1.1}Express}{14}% 
+\contentsline {subsubsection}{\numberline {8.1.2}Electron}{14}% 
+\contentsline {subsubsection}{\numberline {8.1.3}Mongoose}{14}% 
+\contentsline {subsubsection}{\numberline {8.1.4}Socket.io}{14}% 
+\contentsline {subsubsection}{\numberline {8.1.5}mqtt}{14}% 
+\contentsline {subsubsection}{\numberline {8.1.6}JWT}{14}% 
+\contentsline {subsubsection}{\numberline {8.1.7}Mcrypt}{15}% 
+\contentsline {subsection}{\numberline {8.2}Mosquitto}{15}% 
+\contentsline {section}{\numberline {9}Resultados}{16}% 
