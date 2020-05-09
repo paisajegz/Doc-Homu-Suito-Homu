@@ -8,6 +8,7 @@
 \usepackage{graphicx}
 \usepackage{lmodern}
 \usepackage{kpfonts}
+\usepackage{afterpage}
 \author{Juan Edison Giraldo}
 \begin{document}
 \begin{titlepage}
@@ -27,6 +28,10 @@
 {\Large Neiva,Huila 2020 \par}
 \end{titlepage}
 \tableofcontents
+\newpage
+\listoffigures
+\afterpage{\null\newpage}
+\newpage
 \include{contenido/resumen}
 \include{contenido/introduccion}
 \include{contenido/objetivos}
@@ -36,5 +41,7 @@
 \include{contenido/planteamiento-solucion}
 \include{contenido/materiales}
 \include{contenido/resultado}
+\afterpage{\null\newpage}
+\newpage
 \include{contenido/referencia}
 \end{document}
