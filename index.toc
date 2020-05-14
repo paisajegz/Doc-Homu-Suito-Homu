@@ -15,41 +15,52 @@
 \contentsline {subsection}{\numberline {6.2}Base de datos Geogr\IeC {\'a}ficas}{11}% 
 \contentsline {subsection}{\numberline {6.3}Programaci\IeC {\'o}n Orientada a Objetos}{11}% 
 \contentsline {subsection}{\numberline {6.4}Web Services}{11}% 
-\contentsline {subsubsection}{\numberline {6.4.1}Rest-Full}{11}% 
-\contentsline {subsubsection}{\numberline {6.4.2}Soap}{12}% 
+\contentsline {subsubsection}{\numberline {6.4.1}Soap}{12}% 
+\contentsline {subsubsection}{\numberline {6.4.2}XML}{12}% 
+\contentsline {subsubsection}{\numberline {6.4.3}Rest-Full}{12}% 
+\contentsline {subsubsection}{\numberline {6.4.4}JSON}{12}% 
 \contentsline {subsection}{\numberline {6.5}Esteganografia}{12}% 
-\contentsline {subsection}{\numberline {6.6}IOT}{12}% 
-\contentsline {subsection}{\numberline {6.7}Infraestructura de servicios IOT}{12}% 
-\contentsline {subsubsection}{\numberline {6.7.1}Message Queue}{12}% 
-\contentsline {subsubsection}{\numberline {6.7.2}Message Service}{12}% 
-\contentsline {subsection}{\numberline {6.8}Protocolos IOT}{12}% 
-\contentsline {subsubsection}{\numberline {6.8.1}MQTT}{12}% 
+\contentsline {subsection}{\numberline {6.6}IOT}{13}% 
+\contentsline {subsection}{\numberline {6.7}Infraestructura de servicios IOT}{13}% 
+\contentsline {subsubsection}{\numberline {6.7.1}Message Queue}{13}% 
+\contentsline {subsubsection}{\numberline {6.7.2}Message Service}{13}% 
+\contentsline {subsection}{\numberline {6.8}Protocolos IOT}{13}% 
+\contentsline {subsubsection}{\numberline {6.8.1}MQTT}{13}% 
 \contentsline {subsubsection}{\numberline {6.8.2}BLE}{13}% 
-\contentsline {subsubsection}{\numberline {6.8.3}AMQP}{13}% 
-\contentsline {subsubsection}{\numberline {6.8.4}DDS}{13}% 
-\contentsline {subsubsection}{\numberline {6.8.5}WAMP}{13}% 
-\contentsline {subsubsection}{\numberline {6.8.6}CoAP}{13}% 
-\contentsline {subsubsection}{\numberline {6.8.7}STOMP}{13}% 
-\contentsline {subsubsection}{\numberline {6.8.8}WMQ}{13}% 
-\contentsline {subsubsection}{\numberline {6.8.9}XMPP}{13}% 
-\contentsline {section}{\numberline {7}Planteamiento de la soluci\IeC {\'o}n}{14}% 
-\contentsline {subsection}{\numberline {7.1}Lenguaje para el manejo del mapa}{14}% 
-\contentsline {subsubsection}{\numberline {7.1.1}Definidor de datos}{14}% 
-\contentsline {subsubsection}{\numberline {7.1.2}Manipulador de datos}{14}% 
-\contentsline {subsubsection}{\numberline {7.1.3}Consultor de datos}{14}% 
-\contentsline {subsection}{\numberline {7.2}Interfacez de usuario}{14}% 
-\contentsline {subsection}{\numberline {7.3}Web Services}{14}% 
-\contentsline {subsection}{\numberline {7.4}Capa de seguridad}{15}% 
-\contentsline {subsection}{\numberline {7.5}Manejador IOT}{15}% 
-\contentsline {subsection}{\numberline {7.6}Casos De Uso}{15}% 
-\contentsline {section}{\numberline {8}materiales utilizados}{16}% 
-\contentsline {subsection}{\numberline {8.1}Node.js}{16}% 
-\contentsline {subsubsection}{\numberline {8.1.1}Express}{16}% 
-\contentsline {subsubsection}{\numberline {8.1.2}Electron}{16}% 
-\contentsline {subsubsection}{\numberline {8.1.3}Mongoose}{16}% 
-\contentsline {subsubsection}{\numberline {8.1.4}Socket.io}{16}% 
-\contentsline {subsubsection}{\numberline {8.1.5}mqtt}{16}% 
-\contentsline {subsubsection}{\numberline {8.1.6}JWT}{17}% 
-\contentsline {subsubsection}{\numberline {8.1.7}Mcrypt}{17}% 
-\contentsline {subsection}{\numberline {8.2}Mosquitto}{17}% 
-\contentsline {section}{\numberline {9}Resultados}{18}% 
+\contentsline {subsubsection}{\numberline {6.8.3}AMQP}{14}% 
+\contentsline {subsubsection}{\numberline {6.8.4}DDS}{14}% 
+\contentsline {subsubsection}{\numberline {6.8.5}WAMP}{14}% 
+\contentsline {subsubsection}{\numberline {6.8.6}CoAP}{14}% 
+\contentsline {subsubsection}{\numberline {6.8.7}STOMP}{14}% 
+\contentsline {subsubsection}{\numberline {6.8.8}WMQ}{14}% 
+\contentsline {subsubsection}{\numberline {6.8.9}XMPP}{14}% 
+\contentsline {section}{\numberline {7}Planteamiento de la soluci\IeC {\'o}n}{15}% 
+\contentsline {subsection}{\numberline {7.1}Lenguaje para el manejo del mapa}{15}% 
+\contentsline {subsubsection}{\numberline {7.1.1}Definidor de datos}{15}% 
+\contentsline {subsubsection}{\numberline {7.1.2}Manipulador de datos}{15}% 
+\contentsline {subsubsection}{\numberline {7.1.3}Consultor de datos}{15}% 
+\contentsline {subsection}{\numberline {7.2}Interfacez de usuario}{15}% 
+\contentsline {subsection}{\numberline {7.3}Web Services}{15}% 
+\contentsline {subsection}{\numberline {7.4}Capa de seguridad}{16}% 
+\contentsline {subsubsection}{\numberline {7.4.1}Autenticacion de web service}{16}% 
+\contentsline {subsubsection}{\numberline {7.4.2}Encriptacion de datos extremo a extremo}{16}% 
+\contentsline {subsubsection}{\numberline {7.4.3}Manejo de archivos modificando internamente su contenido}{16}% 
+\contentsline {subsubsection}{\numberline {7.4.4}Auditoria de la casa}{16}% 
+\contentsline {subsubsection}{\numberline {7.4.5}Acesso a travez de reglas a cada entidad de la casa}{16}% 
+\contentsline {subsection}{\numberline {7.5}Manejador IOT}{17}% 
+\contentsline {subsubsection}{\numberline {7.5.1}Creaci\IeC {\'o}n de topics}{17}% 
+\contentsline {subsubsection}{\numberline {7.5.2}Manejador de suscripciones}{17}% 
+\contentsline {subsubsection}{\numberline {7.5.3}Manejador de publicadores}{17}% 
+\contentsline {subsubsection}{\numberline {7.5.4}Enviador de la informacion al cliente}{17}% 
+\contentsline {subsection}{\numberline {7.6}Casos De Uso}{18}% 
+\contentsline {section}{\numberline {8}materiales utilizados}{19}% 
+\contentsline {subsection}{\numberline {8.1}Node.js}{19}% 
+\contentsline {subsubsection}{\numberline {8.1.1}Express}{19}% 
+\contentsline {subsubsection}{\numberline {8.1.2}Electron}{19}% 
+\contentsline {subsubsection}{\numberline {8.1.3}Mongoose}{19}% 
+\contentsline {subsubsection}{\numberline {8.1.4}Socket.io}{19}% 
+\contentsline {subsubsection}{\numberline {8.1.5}mqtt}{19}% 
+\contentsline {subsubsection}{\numberline {8.1.6}JWT}{20}% 
+\contentsline {subsubsection}{\numberline {8.1.7}Mcrypt}{20}% 
+\contentsline {subsection}{\numberline {8.2}Mosquitto}{20}% 
+\contentsline {section}{\numberline {9}Resultados}{21}% 

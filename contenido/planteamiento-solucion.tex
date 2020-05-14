@@ -11,15 +11,33 @@ Es el encargado de consultar las entidades de la casa por su id y tipo, este mos
 
 \subsection{Interfacez de usuario}
 \subsection{Web Services}
-lorem ipusm jdieuq jdakjskad jjkasdkaskjkjakd jdkasjkdas
+Aquí va ha estar el contenido del backend para comunicar cliente con base de datos e IOT, este funcionara a través de socket, para poder enviar  y recibir información en tiempo real de todo lo sucedido.
 \subsection{Capa de seguridad}
-lorem ipusm jdieuq jdakjskad jjkasdkaskjkjakd jdkasjkdas
+En esta casa se tendra en cuenta lo siguientes eventos:
+\subsubsection{Autenticacion de web service}
+Para poder entra al uso de los servicios web debera estar autenticado por un token especial, el cual tendra informacion del usuario encriptada ,y tendra un tiempo de expiracion para poder acceder al sistema.\\
+Esto se hace para evitar intrusos a la hora de conectar los distintos modulos del sistema.
+\subsubsection{Encriptacion de datos extremo a extremo}
+Todos los datos y archivos guardados por parte de servidor seran guardados con una encriptacion por parte de cliente y otra encriptacion por parte del servidor, utilizando unas claves publicas y claves privadas, para dciho manejo.
+\subsubsection{Manejo de archivos modificando internamente su contenido}
+Los archivos que seran guardados por parte del servidor,seran guardados encriptados, usando el encriptamiento extremo a extremo, y solamente podra ser leidos por el usuario dueño de ese contenido.
+\subsubsection{Auditoria de la casa}
+Se guardara informacion, de todos los eventos que existan en la casa, y se avisara de eventos que son anormales en el uso del sistema de la casa, como abrir una puerta por un usuario que no esta permitido, o cambio de reglas de acesso, por parte de otros usuarios administradores.
+\subsubsection{Acesso a travez de reglas a cada entidad de la casa}
+Aqui los usuarios tipos administradores, podran crear reglas, para prohibir o no el uso de una entidad por otros usuario o por otros roles, tambien podra organizar las casa por topic y poder prohibir el acesso a los usuarios que hagan parte en esos topicos.
 \subsection{Manejador IOT}
-Esta funcionara gracias al lenguaje para el manejo del mapa, gracias a este se creara las suscripciones de la casa por tipo usando el protocolo MQTT con Eclipse Mosquitto, y gracias a este poder hacer la comunicación machine to machine, "maquina a maquina" para poder intelectual con las entidades desde los servicios web.
-\subsection{Casos De Uso}
-Primer caso de uso en el cual identifica lo que se debe hacer en la aplicación móvil y de escritorio\\
-\begin{figure}
-  \includegraphics[width=\linewidth]{staruml/img/caso-de-uso-1.png}
-  \caption{Casos de uso interfaz grafica}
-  \label{fig:Casos de uso para manejo de cliente}
-\end{figure}\\
+Esta funcionara gracias al lenguaje para el manejo del mapa, gracias a este se creara las suscripciones de la casa por tipo usando el protocolo MQTT con Eclipse Mosquitto, y gracias a este poder hacer la comunicación machine to machine, "maquina a maquina" para poder intelectual con las entidades desde los servicios web.\\
+Este modulo cuenta con:
+\subsubsection{Creación de topics}
+Un topic es la eleccion de un tema para poder manejar una entidad de la casa ejemplo /casa/habitacion/bombillo
+\subsubsection{Manejador de suscripciones}
+una entidad se conecta a un topic creando un canal para recibir informacion acerca de ese tema.
+ejemplo un bombillo es un suscriptor del topic /casa/habitacion/bombillo el cual esperara los resultados de un publicador para trabajar.
+\subsubsection{Manejador de publicadores}
+los publicadores enviar informacion al topic para que las entidades que estan suscriptas al topic reciban esa informacion.
+\subsubsection{Enviador de la informacion al cliente}
+Este se encargara de hacer dos tareas:\\
+\begin{itemize}
+\item Recibir información de las entidades al cliente
+\item Enviar informacion del cliente a las entidades
+\end{itemize}
